@@ -1,11 +1,12 @@
 <header>
   <div id="header">
-      <img src="./assets/logo.JPG" alt="">
+    <img src="./assets/logo.JPG" alt="">
     <ul>
-      <li>Home</li>
-      <li>About Me</li>
-      <li>Portfolio</li>
-      <li>Contact</li>
+      <a [routerLink]="['/']"><li>Home</li></a>
+      <a [routerLink]="['/about-me']"><li>About Me</li></a>
+      <a [routerLink]="['/portfolio']"><li>Portfolio</li></a>
+      <a [routerLink]="['/contact']"><li>Contact</li></a>
     </ul>
   </div>
 </header>
+<!--  [routerLink]=["/about-me"] -->

@@ -1,0 +1,12 @@
+app-home {
+  height: 100%;
+}
+
+section {
+  height: 100%;
+  width: 100%;
+  padding-left: 350px;
+  background: url(../../../assets/home-2.jpg);
+  background-position: center center;
+  background-size: cover;
+}
